@@ -13,10 +13,10 @@ export default function HeroSection() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/hero-skardu.webp"
+          src="/skardu1.jpg"
           alt="Skardu Valley - Karakoram Mountains, Gilgit-Baltistan"
           className="w-full h-full object-cover"
-          priority
+      
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/60" />
       </div>
@@ -34,7 +34,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 0.3 }}
-            className="inline-flex items-center gap-2 bg-white/15 backdrop-blur-md border border-white/20 rounded-full px-5 py-2"
+            className="inline-flex items-center gap-2 bg-white/15 backdrop-blur-md border border-white/20 rounded-full px-5 py-2 mt-12"
           >
             <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse" />
             <span className="text-white text-sm font-medium">

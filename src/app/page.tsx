@@ -13,7 +13,7 @@ import BlogSection from "@/components/sections/BlogSection";
 import BookingSection from "@/components/sections/BookingSection";
 import Footer from "@/components/sections/Footer";
 import MobileStickyBar from "@/components/sections/MobileStickyBar";
-
+import PaymentSection from "@/components/sections/PaymentSection";
 export default function Home() {
   return (
     <main className="min-h-screen">
@@ -29,6 +29,7 @@ export default function Home() {
       <TeamSection />
       <GallerySection />
       <BlogSection />
+      <PaymentSection />
       <BookingSection />
       <Footer />
       <MobileStickyBar />

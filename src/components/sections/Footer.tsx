@@ -27,12 +27,10 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 rounded-xl bg-sk-orange flex items-center justify-center">
-                <Mountain className="w-6 h-6 text-white" />
-              </div>
-              <span className="font-heading font-bold text-xl">
-                Skardo<span className="text-sk-orange">Nest</span>
-              </span>
+              
+                <img src="/logo.png" className="w-26 h-10 text-white" />
+              
+              
             </div>
             <p className="text-white/70 text-sm leading-relaxed mb-6">
               Skardu-based tour company with 8+ years of experience. We help you

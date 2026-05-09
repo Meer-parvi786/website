@@ -8,8 +8,7 @@ import {
   X,
   Phone,
   MessageCircle,
-  ChevronDown,
-  Mountain,
+  
 } from "lucide-react";
 
 const navLinks = [
@@ -32,14 +31,13 @@ export default function Navbar() {
   }, []);
 
   return (
-    <>
-      <motion.nav
+    <motion.nav
         initial={{ y: -100 }}
         animate={{ y: 0 }}
         transition={{ duration: 0.5 }}
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
           scrolled
-            ? "bg-white/95 backdrop-blur-md shadow-lg"
+            ? "bg-green-500/95 backdrop-blur-md shadow-lg"
             : "bg-transparent"
         }`}
       >
@@ -47,27 +45,10 @@ export default function Navbar() {
           <div className="flex items-center justify-between h-16 lg:h-20">
             {/* Logo */}
             <a href="#" className="flex items-center gap-2 group">
-              <div
-                className={`w-10 h-10 rounded-xl flex items-center justify-center transition-colors ${
-                  scrolled
-                    ? "bg-sk-green"
-                    : "bg-white/20 backdrop-blur-sm"
-                }`}
-              >
-                <Mountain
-                  className={`w-6 h-6 transition-colors ${
-                    scrolled ? "text-white" : "text-white"
-                  }`}
+             
+                <img src="/logo.png"
+                  className={`w-28 h-10 transition-colors `}
                 />
-              </div>
-              <span
-                className={`font-heading font-bold text-xl transition-colors ${
-                  scrolled ? "text-sk-green" : "text-white"
-                }`}
-              >
-                Skardo
-                <span className="text-sk-orange">Nest</span>
-              </span>
             </a>
 
             {/* Desktop Nav */}
@@ -169,6 +150,5 @@ export default function Navbar() {
           )}
         </AnimatePresence>
       </motion.nav>
-    </>
   );
 }
