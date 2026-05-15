@@ -18,7 +18,7 @@ export default function HeroSection() {
           className="w-full h-full object-cover"
       
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/60" />
+        <div className="absolute inset-0 bg-linear-to-b from-black/50 via-black/30 to-black/60" />
       </div>
 
       {/* Content */}
@@ -38,7 +38,7 @@ export default function HeroSection() {
           >
             <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse" />
             <span className="text-white text-sm font-medium">
-              Skardu-Based Company — 8+ Years Experience
+              Skardu-Based Company — 2+ Years Experience
             </span>
           </motion.div>
 
@@ -51,8 +51,7 @@ export default function HeroSection() {
 
           {/* Subheadline */}
           <p className="text-white/80 text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed">
-            Pakistan ka sab khoobsurat region — Deosai, Kachura, Shigar aur
-            Skardu ke mustaqbil ki safar, local guides ke saath.{" "}
+            Pakistan’s most breathtaking region — explore Deosai National Park, Upper Kachura Lake, Shigar, and Skardu on an unforgettable journey with experienced local guides.{" "}
             <span className="text-white font-semibold">
               Flight guarantee included!
             </span>
@@ -61,7 +60,7 @@ export default function HeroSection() {
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
             <motion.a
-              href="#tours"
+              href="/tour"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="w-full sm:w-auto flex items-center justify-center gap-2 bg-sk-orange hover:bg-sk-orange-dark text-white font-heading font-bold text-lg px-8 py-4 rounded-xl transition-all shadow-xl shadow-orange-500/25"
@@ -95,7 +94,7 @@ export default function HeroSection() {
             </div>
             <div className="hidden sm:block w-1 h-1 bg-white/30 rounded-full" />
             <div className="flex items-center gap-2">
-              <span className="text-sk-orange font-heading font-bold text-lg">8+</span>
+              <span className="text-sk-orange font-heading font-bold text-lg">2+</span>
               Years Experience
             </div>
             <div className="hidden sm:block w-1 h-1 bg-white/30 rounded-full" />

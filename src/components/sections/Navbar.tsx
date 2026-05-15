@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { siteConfig } from "@/lib/site-data";
+import { siteConfig } from "@/lib/site-data"
 import {
   Menu,
   X,
@@ -13,7 +13,7 @@ import {
 
 const navLinks = [
   { label: "Home", href: "#" },
-  { label: "Tour Packages", href: "#tours" },
+  { label: "Tour Packages", href: "/tour" },
   { label: "Destinations", href: "#destinations" },
   { label: "Gallery", href: "#gallery" },
   { label: "Blog", href: "#blog" },

@@ -10,7 +10,6 @@ import {
   Facebook,
   Instagram,
   Youtube,
-  Mountain,
   ArrowUp,
 } from "lucide-react";
 

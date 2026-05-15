@@ -4,9 +4,7 @@ import { motion } from "framer-motion";
 import { siteConfig } from "@/lib/site-data";
 import {
   ShieldCheck,
-  Car,
   Plane,
-  Clock,
   MessageCircle,
   CheckCircle2,
   AlertTriangle,
@@ -66,28 +64,25 @@ export default function KKHBackupSection() {
               <div className="flex items-start gap-3">
                 <AlertTriangle className="w-5 h-5 text-amber-500 shrink-0 mt-0.5" />
                 <p className="text-sm text-amber-800">
-                  <strong>Kya aapko pata hai?</strong> Skardu ki flights weather ki
-                  wajah se frequently cancel hoti hain. Kaafi tour operators is
-                  baare mein batate bhi nahi — aur guest phas jaata hai!
+                  <strong>Do you know?</strong> Flights to Skardu are frequently canceled due to weather conditions. Many tour operators do not clearly inform travelers about this risk — which can leave guests stranded and facing unexpected problems.
                 </p>
               </div>
             </div>
 
             <p className="text-gray-600 text-base leading-relaxed mb-6">
-              SkardoNest ka <strong>KKH Backup Plan</strong> Pakistan mein unique
-              hai. Jab aap humse &ldquo;By Air&rdquo; package book karte hain, toh
-              hum automatically KKH alternate route ka plan bhi bana ke rakhte hain.
-              Agar PIA flight cancel ho jaye toh:
+              SkardoNest offers a unique KKH Backup Plan in Pakistan. When you book a By Air package with us, we automatically prepare an alternate travel plan via the Karakoram Highway (KKH).
+
+If your Pakistan International Airlines (PIA) flight is canceled, then:
             </p>
 
             <div className="space-y-3 mb-8">
               {[
-                "Same package — KKH se road trip start ho jaye ga",
-                "Zero extra charges — flight ke daam mein hi road trip included hai",
-                "AC transport + experienced driver — Babusar Pass se scenic route",
-                "1 extra night free — journey mein aane wale rukaw ke liye",
-                "Real-time updates — flight status par 24/7 monitoring",
-                "Money-back option — agar na air na road chale toh full refund",
+                "Same package — Your journey will immediately continue as an unforgettable road trip via the Karakoram Highway (KKH).",
+                "Zero extra charges — The road trip via the Karakoram Highway (KKH) is already included in the price of your flight package at no additional cost.",
+                "AC transport + experienced driver — Travel through the breathtaking Babusar Pass scenic route",
+                "1 extra night free — For any interruptions or unexpected delays during the journey.",
+                "Real-time updates — 24/7 flight status monitoring",
+                "Money-back option — If neither the flight nor the road route is possible, you will receive a full refund.",
               ].map((item, index) => (
                 <motion.div
                   key={index}

@@ -13,12 +13,14 @@ import {
   Sparkles,
 } from "lucide-react";
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 
 export default function FeaturedTours() {
   const [expandedId, setExpandedId] = useState<string | null>(null);
-
+const router = useRouter();
   return (
     <section id="tours" className="py-16 lg:py-24 bg-white">
+      <button onClick={() => router.push("/")}>Back</button>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <motion.div
